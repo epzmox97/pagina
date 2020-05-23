@@ -1,0 +1,120 @@
+body{
+	
+    background-image: url("img/fondo.jpg");
+    background-size: 100%, 100%;
+}
+#inicio{
+	
+	background-color: rgb(200,200,200);opacity: 0.5;
+	position: absolute;
+
+		top:50%;
+		left:50%;
+		width:400px;
+		margin-left:-200px;
+		height:300px;
+		margin-top:-150px;
+		border:1px solid #808080;
+		padding:5px;
+		position: absolute;
+
+	border-radius: 51px;
+-moz-border-radius: 51px;
+-webkit-border-radius: 51px 51px 51px 51px;
+border: 0px solid #000000;
+}
+h2{
+	color: white;
+}
+h1{
+	color: black;
+	font-family: cursive;
+}
+.textbox{
+	border: 1px solid #DBE1EB;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+}
+#submit {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#submit:hover {
+    background: #ddd;
+}
+
+#cabeza li a{
+	background-color: rgb(125.150.220);opacity: 0.5;
+	padding: 10px 35px 100px 35px;
+	font-family: georgia;
+	color: black;
+
+}
+#cabeza li{
+	list-style-type: none;
+	display: inline;
+	margin: 10px 25px 10px 25px;
+}
+#cabeza ul{
+  margin-left: 41%;
+  width:  200px;
+	text-align: center;
+	background-color: rgb(248,240,238);opacity: 0.5;
+	padding: 10px 50px 10px 50px;
+}
+.cabeza{
+	border-radius: 51px;
+-moz-border-radius: 51px ;
+-webkit-border-radius: 51px;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.inicio {
+    width: 20px; /* Set a width if you like */
+}
+
+.inicio-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.inicio a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.inicio a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+   
+
+
